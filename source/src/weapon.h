@@ -46,6 +46,8 @@ struct weapon
     void renderhudmodel(int lastaction, int index = 0);
 
     virtual int flashtime() const;
+private:
+    void reloadWaitTime();
 };
 
 class grenadeent;
